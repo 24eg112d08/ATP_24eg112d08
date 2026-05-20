@@ -14,14 +14,14 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# 🎨 Week 5 – CSS Deep Dive & Tailwind CSS
+# Week 5 – CSS Deep Dive & Tailwind CSS
 
 > **Course:** ATP | **Student ID:** 24eg112d08  
 > **Week:** 5 | **Topics:** CSS (Advanced Basics) & Tailwind CSS
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 1. [CSS Recap](#css-recap)
 2. [CSS Flexbox](#css-flexbox)
@@ -37,7 +37,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
-## 🔁 CSS Recap
+##  CSS Recap
 
 Before diving deeper, here's a quick recap from Week 4:
 
@@ -55,7 +55,7 @@ border    /* Border around the element */
 
 ---
 
-## 📐 CSS Flexbox
+##  CSS Flexbox
 
 **Flexbox** is a CSS layout tool that makes it easy to arrange elements **in a row or column**.
 
@@ -123,11 +123,11 @@ border    /* Border around the element */
 }
 ```
 
-> 💡 **Think of Flexbox as:** arranging items on a single line (row or column).
+> **Think of Flexbox as:** arranging items on a single line (row or column).
 
 ---
 
-## 🔲 CSS Grid
+##  CSS Grid
 
 **CSS Grid** is for creating **two-dimensional layouts** (rows AND columns together).
 
@@ -179,13 +179,13 @@ border    /* Border around the element */
 }
 ```
 
-> 💡 **Flexbox vs Grid:**  
+> **Flexbox vs Grid:**  
 > Use **Flexbox** for 1D layouts (a row of buttons, a navbar).  
 > Use **Grid** for 2D layouts (photo galleries, page layouts).
 
 ---
 
-## 🎭 CSS Pseudo-classes & Pseudo-elements
+##  CSS Pseudo-classes & Pseudo-elements
 
 ### Pseudo-classes (state of an element)
 ```css
@@ -225,18 +225,18 @@ p::first-line {
 
 /* Add content before an element */
 h2::before {
-  content: "👉 ";
+  content: " ";
 }
 
 /* Add content after an element */
 h2::after {
-  content: " ✅";
+  content: " ";
 }
 ```
 
 ---
 
-## 🎨 CSS Variables
+##  CSS Variables
 
 CSS Variables (also called **Custom Properties**) let you store values and reuse them.
 
@@ -261,11 +261,11 @@ CSS Variables (also called **Custom Properties**) let you store values and reuse
 }
 ```
 
-> 💡 **Why use variables?** Change the value in one place and it updates everywhere!
+>  **Why use variables?** Change the value in one place and it updates everywhere!
 
 ---
 
-## 🌬️ What is Tailwind CSS?
+##  What is Tailwind CSS?
 
 **Tailwind CSS** is a **utility-first CSS framework**.  
 Instead of writing CSS yourself, you apply **pre-made classes directly in HTML**.
@@ -279,7 +279,7 @@ Instead of writing CSS yourself, you apply **pre-made classes directly in HTML**
 
 ---
 
-## ⚡ Setting Up Tailwind CSS (CDN)
+##  Setting Up Tailwind CSS (CDN)
 
 The easiest way for beginners — just add this line to your `<head>`:
 
@@ -300,11 +300,11 @@ The easiest way for beginners — just add this line to your `<head>`:
 </html>
 ```
 
-That's it — no installation needed for learning! ✅
+That's it — no installation needed for learning! 
 
 ---
 
-## 🧰 Tailwind Utility Classes
+##  Tailwind Utility Classes
 
 ### Typography
 ```html
@@ -329,7 +329,7 @@ That's it — no installation needed for learning! ✅
 <div class="bg-white">White background</div>
 ```
 
-> 💡 **Color scale:** 100 (lightest) → 900 (darkest). E.g. `bg-blue-100`, `bg-blue-500`, `bg-blue-900`
+>  **Color scale:** 100 (lightest) → 900 (darkest). E.g. `bg-blue-100`, `bg-blue-500`, `bg-blue-900`
 
 ### Spacing (Margin & Padding)
 ```html
@@ -345,7 +345,7 @@ That's it — no installation needed for learning! ✅
 <div class="mt-8 mb-4">Margin top & bottom</div>
 ```
 
-> 💡 **Size scale:** 1 = 4px, 2 = 8px, 4 = 16px, 8 = 32px, 16 = 64px
+>  **Size scale:** 1 = 4px, 2 = 8px, 4 = 16px, 8 = 32px, 16 = 64px
 
 ### Width & Height
 ```html
@@ -410,7 +410,7 @@ That's it — no installation needed for learning! ✅
 
 ---
 
-## ⚖️ Tailwind vs Plain CSS
+##  Tailwind vs Plain CSS
 
 ```html
 <!-- Plain CSS approach -->
@@ -435,11 +435,11 @@ That's it — no installation needed for learning! ✅
 </div>
 ```
 
-> ✅ Both produce the same result — Tailwind just keeps everything in one place!
+>  Both produce the same result — Tailwind just keeps everything in one place!
 
 ---
 
-## 💻 Code Examples
+##  Code Examples
 
 ### Example 1 – Responsive Navbar with Tailwind
 
@@ -603,15 +603,15 @@ That's it — no installation needed for learning! ✅
 
     <div class="cards">
       <div class="card">
-        <h3>🎨 Design</h3>
+        <h3> Design</h3>
         <p>Beautiful UI with clean layouts</p>
       </div>
       <div class="card">
-        <h3>💻 Code</h3>
+        <h3> Code</h3>
         <p>Clean and maintainable code</p>
       </div>
       <div class="card">
-        <h3>🚀 Deploy</h3>
+        <h3>Deploy</h3>
         <p>Fast and reliable hosting</p>
       </div>
     </div>
@@ -622,9 +622,9 @@ That's it — no installation needed for learning! ✅
 
 ---
 
-## 📝 Practice Questions
+##  Practice Questions
 
-### ✅ Theory Questions
+###  Theory Questions
 
 1. What is the difference between **Flexbox** and **Grid**? When would you use each?
 2. What does `justify-content: space-between` do in Flexbox?
@@ -637,7 +637,7 @@ That's it — no installation needed for learning! ✅
 
 ---
 
-### 💻 Coding Exercises
+###  Coding Exercises
 
 **Exercise 1:** Using **plain CSS Flexbox**, create a navigation bar with:
 - A logo/brand name on the left
@@ -676,7 +676,7 @@ That's it — no installation needed for learning! ✅
 
 ---
 
-## 🔗 Useful Resources
+## Useful Resources
 
 | Resource | Link |
 |----------|------|
@@ -688,7 +688,7 @@ That's it — no installation needed for learning! ✅
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Student ID:** 24eg112d08  
 **GitHub:** [ATP_24eg112d08](https://github.com/24eg112d08/ATP_24eg112d08)  
@@ -696,4 +696,4 @@ That's it — no installation needed for learning! ✅
 
 ---
 
-> 💡 *"CSS is the art of making the web beautiful. Tailwind CSS is the shortcut to that art."*
+> the things that i have learnt is *"CSS is the art of making the web beautiful. Tailwind CSS is the shortcut to that art."*
