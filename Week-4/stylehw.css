@@ -1,0 +1,19 @@
+img{
+    display: block;
+    margin: auto;
+    border-radius: 200px;
+}
+h1{
+    display: block;
+    text-align: center;
+}
+div{
+    background-color: bisque;
+    padding: 80px;
+}
+hr{
+    background-color: aqua;
+}
+h2{
+    color: red;
+}

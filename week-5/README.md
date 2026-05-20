@@ -1,62 +1,16 @@
-# Week 5 - CSS, Tailwind CSS, and React Practice
+# React + Vite
 
-## Objective
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Practice webpage layout with CSS, create tables, use Tailwind CSS utility classes, and build simple React applications.
+Currently, two official plugins are available:
 
-## Day 12 - HTML and CSS Assignments
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-Files:
+## React Compiler
 
-- `Tables, Flex/tables/table1.html`
-- `Tables, Flex/tables/table1.css`
-- `Tables, Flex/tables/table2.html`
-- `Tables, Flex/tables/table3.html`
-- `Tables, Flex/tables/table3.css`
-- `Tables, Flex/flex/1.html`
-- `Tables, Flex/flex/1.css`
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Day 13 - Tailwind CSS and React
+## Expanding the ESLint configuration
 
-Tailwind CSS files:
-
-- `React App/Tailwind-css/src/index.html`
-- `React App/Tailwind-css/src/2.html`
-- `React App/Tailwind-css/src/3.html`
-- `React App/Tailwind-css/src/4.html`
-- `React App/Tailwind-css/src/input.css`
-- `React App/Tailwind-css/src/output.css`
-
-React app files:
-
-- `React App/React/react-app-1/src/App.jsx`
-- `React App/React/react-app-1/src/Navbar.jsx`
-- `React App/React/react-app-1/src/UsersList.jsx`
-- `React App/React/react-app-1/src/Footer.jsx`
-- `React App/React/react-practice/src/App.jsx`
-- `React App/React/react-practice/src/product.jsx`
-
-Concepts practiced:
-
-- Components
-- JSX
-- Props
-- List rendering
-- `key` prop
-- Component composition
-- Tailwind classes in JSX
-
-
-
-
-Concepts practiced:
-
-- React components
-- Props
-- Arrays of objects
-- Product card rendering
-- JSX layout
-
-## Outcome
-
-This week connects HTML and CSS layout practice with Tailwind utilities and React component-based UI development.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
