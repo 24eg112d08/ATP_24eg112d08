@@ -1,9 +1,11 @@
 deployment links
 
-   ###week 6
+   ### week 6
    
-     1.https://atp-24eg112d08.vercel.app
-   ###week 7
+     frontend- https://atp-24eg112d08.vercel.app
+     backend-https://week6-backend.onrender.com
+   ### week 7
    
-     2.https://atp-24eg112d08-blogapp.vercel.app
+     frontend-https://atp-24eg112d08-blogapp.vercel.app
+     backend-https://atp-24eg112d08-blogapp.onrender.com
    
