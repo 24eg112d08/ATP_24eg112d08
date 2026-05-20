@@ -119,7 +119,7 @@ It is used to **style and design** HTML elements — colors, fonts, layout, spac
 
 ---
 
-## 📎 Ways to Add CSS
+##  Ways to Add CSS
 
 There are **3 ways** to add CSS:
 
