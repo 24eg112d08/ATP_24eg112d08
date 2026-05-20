@@ -1,11 +1,11 @@
-# 🌐 Week 4 – HTML & CSS Basics
+#  Week 4 – HTML & CSS Basics
 
 > **Course:** ATP | **Student ID:** 24eg112d08  
 > **Week:** 4 | **Topics:** HTML Structure & CSS Styling
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 1. [What is HTML?](#what-is-html)
 2. [Basic HTML Structure](#basic-html-structure)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🧱 What is HTML?
+##  What is HTML?
 
 **HTML** stands for **HyperText Markup Language**.  
 It is the **skeleton** of every webpage — it defines the structure and content.
@@ -31,7 +31,7 @@ It is the **skeleton** of every webpage — it defines the structure and content
 
 ---
 
-## 🏗️ Basic HTML Structure
+##  Basic HTML Structure
 
 Every HTML file follows this structure:
 
@@ -59,7 +59,7 @@ Every HTML file follows this structure:
 
 ---
 
-## 🏷️ Common HTML Tags
+##  Common HTML Tags
 
 ```html
 <!-- Headings (h1 is biggest, h6 is smallest) -->
@@ -109,7 +109,7 @@ Every HTML file follows this structure:
 
 ---
 
-## 🎨 What is CSS?
+##  What is CSS?
 
 **CSS** stands for **Cascading Style Sheets**.  
 It is used to **style and design** HTML elements — colors, fonts, layout, spacing, etc.
@@ -140,7 +140,7 @@ There are **3 ways** to add CSS:
 </head>
 ```
 
-### 3. External CSS (separate `.css` file) ✅ Best Practice
+### 3. External CSS (separate `.css` file)  Best Practice
 ```html
 <!-- In your HTML file -->
 <link rel="stylesheet" href="style.css" />
@@ -155,7 +155,7 @@ p {
 
 ---
 
-## 🖌️ Common CSS Properties
+##  Common CSS Properties
 
 ```css
 /* Text & Font */
@@ -190,7 +190,7 @@ display: flex;       /* Modern layout */
 
 ---
 
-## 🎯 CSS Selectors
+##  CSS Selectors
 
 Selectors tell CSS **which HTML element to style**.
 
@@ -219,11 +219,11 @@ p {
 <h1 id="title">I have the title id.</h1>
 ```
 
-> 💡 **Rule:** Use `class` for multiple elements, `id` for only one unique element.
+>  **Rule:** Use `class` for multiple elements, `id` for only one unique element.
 
 ---
 
-## 📦 Box Model
+##  Box Model
 
 Every HTML element is a **box** with 4 layers:
 
@@ -253,7 +253,7 @@ div {
 
 ---
 
-## 💻 Code Examples
+##  Code Examples
 
 ### Example 1 – Simple Webpage with Styling
 
@@ -400,9 +400,9 @@ li {
 
 ---
 
-## 📝 Practice Questions
+##  Practice Questions
 
-### ✅ Theory Questions
+###  Theory Questions
 
 1. What does HTML stand for? What is its purpose?
 2. What is the difference between `<head>` and `<body>` in HTML?
@@ -415,7 +415,7 @@ li {
 
 ---
 
-### 💻 Coding Exercises
+###  Coding Exercises
 
 **Exercise 1:** Create an HTML page with:
 - A heading with your name
@@ -449,7 +449,7 @@ li {
 
 ---
 
-## 🔗 Useful Resources
+##  Useful Resources
 
 | Resource | Link |
 |----------|------|
@@ -461,7 +461,7 @@ li {
 
 ---
 
-## ✍️ Author
+##  Author
 
 **Student ID:** 24eg112d08  
 **GitHub:** [ATP_24eg112d08](https://github.com/24eg112d08/ATP_24eg112d08)  
@@ -469,4 +469,4 @@ li {
 
 ---
 
-> 💡 *"Every great website starts with a single `<html>` tag."*
+> *"Every great website starts with a single `<html>` tag."*
