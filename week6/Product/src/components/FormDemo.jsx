@@ -1,4 +1,4 @@
-import { useForm } from "react-hook-form"
+import { set, useForm } from "react-hook-form"
 import { useState } from "react";
 
 function FormDemo(){
@@ -6,7 +6,6 @@ function FormDemo(){
 
 
     let [users,setUsers] = useState([]);
-    let [searchTerm, setSearchTerm] = useState("");
 
     const updateUser=(obj)=>{
         setUsers([...users,obj])
@@ -17,20 +16,6 @@ function FormDemo(){
         updateUser(obj);
         
     }
-
-    const visibleUsers = users.filter((user) => {
-        const query = searchTerm.trim().toLowerCase();
-
-        if (!query) {
-            return true;
-        }
-
-        return (
-            user.fullname.toLowerCase().includes(query) ||
-            user.email.toLowerCase().includes(query) ||
-            user.dob.toLowerCase().includes(query)
-        );
-    });
 
     return(
         <div className="items-center">
@@ -88,34 +73,7 @@ function FormDemo(){
         </div>
         {/* TABLE */}
     <div className="mt-10 w-full flex justify-center">
-        <div className="w-[700px]">
-            <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <label className="flex-1">
-                    <span className="mb-1 block text-sm font-medium text-gray-700">Search saved users</span>
-                    <input
-                        type="text"
-                        value={searchTerm}
-                        onChange={(event) => setSearchTerm(event.target.value)}
-                        placeholder="Search by name, email, or date"
-                        className="w-full rounded border border-gray-300 px-3 py-2"
-                    />
-                </label>
-
-                <div className="flex items-center gap-3 self-start sm:self-end">
-                    <p className="text-sm text-gray-600">
-                        Showing {visibleUsers.length} of {users.length}
-                    </p>
-                    <button
-                        type="button"
-                        onClick={() => setSearchTerm("")}
-                        className="rounded bg-gray-200 px-3 py-2 text-sm hover:bg-gray-300"
-                    >
-                        Clear
-                    </button>
-                </div>
-            </div>
-
-        <table className="w-full border border-collapse">
+        <table className="w-[700px] border border-collapse">
             <thead className="bg-gray-200">
                 <tr>
                     <th className="p-2 border">FirstName</th>
@@ -125,7 +83,7 @@ function FormDemo(){
             </thead>
 
             <tbody>
-                {visibleUsers.map((u, index) => (
+                {users.map((u, index) => (
                     <tr key={index} className="text-center hover:bg-gray-100">
                         <td className="p-2 border">{u.fullname}</td>
                         <td className="p-2 border">{u.email}</td>
@@ -134,7 +92,6 @@ function FormDemo(){
                 ))}
             </tbody>
         </table>
-        </div>
     </div>
 
         </div>
