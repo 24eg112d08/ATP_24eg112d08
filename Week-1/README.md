@@ -10,14 +10,14 @@ Practice basic JavaScript programming logic using variables, conditions, loops, 
 
 ### Day 1 Problems
 
-- `BigTwo.js`: Finds the biggest number among two numbers.
-- `BigThre.js`: Finds the biggest number among three numbers.
+- `BiggestOfTwo.js`: Finds the biggest number among two numbers.
+- `BiggestOfThree.js`: Finds the biggest number among three numbers.
 - `Sum.js`: Calculates the sum of marks in an array.
 - `Smallest.js`: Finds the smallest element in a marks array.
 
 ### Day 2 Problems
 
-- `LargetOfThree.js`: Creates a function that receives three numbers and returns the largest number.
+- `LargestOfThree.js`: Creates a function that receives three numbers and returns the largest number.
 - `SumArray.js`: Creates a function that receives an array and returns the sum of its elements.
 - `Searching.js`: Searches for an element in an array and returns its index or displays "Not found".
 - `OperationsArray.js`: Performs operations on an employees array:
